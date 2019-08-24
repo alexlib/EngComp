@@ -1,23 +1,28 @@
 # Engineering Computations
 
-A sophomore course in Engineering Computations at the George Washington University, Mechanical and Aerospace Engineering department. 
-The local course number is [MAE 2117](http://bulletin.gwu.edu/search/?P=MAE%202117). 
+This project is a collection of learning modules in engineering computations for undergraduate students. 
+The project lead is Prof. Lorena A. Barba at the George Washington University, Mechanical and Aerospace Engineering department. 
+In Fall 2017, Prof. Barba worked with doctoral student Natalia C. Clementi to produce the first three modules of the series.
 
-This is a full course re-write for Fall 2017, by Prof. Lorena A. Barba and doctoral student Natalia C. Clementi.
-
-The course consists of a set of somewhat self-contained Modules, addressing an area of application or skills in computing.
-Each module is made up of four or five lessons, written as a Jupyter notebook.
+Eeach learning modules is made up of four or five lessons, written as a Jupyter notebook, and addressing an area of application or skills in computing.
 We use Python as the programming language.
 
-## Course Philosophy
-We take inspiration in the ideas of Seymour Papert about computational thinking.
-In particular, we want to design a course that adheres to Papert's _Power Principle_:
+## How to clone this repository
+
+This repository uses git submodules to include contents from individual repositories for each course module. 
+To clone the complete collection, use the command:
+
+` git clone --recursive https://github.com/engineersCode/EngComp.git`
+
+## Design philosophy
+We take inspiration in the ideas of [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) about computational thinking.
+In particular, we want to design learning modules that adhere to Papert's _Power Principle_:
 
 > What comes first, "using" or "understanding"? The natural mode of learning is to first use, leading slowly to understanding. New ideas are a source of power to _do something_.
 
-## Course Modules
+## Learning Modules
 
-**[Module 1: Get data off the ground](https://github.com/engineersCode/EngComp/tree/master/modules/1_offtheground)**
+**[Module 1: Get data off the ground](https://github.com/engineersCode/EngComp1_offtheground)**
 — Learn to interact with Python and handle data with Python.
 
 1) Interacting with Python
@@ -26,7 +31,10 @@ In particular, we want to design a course that adheres to Papert's _Power Princi
 4) Play with NumPy arrays
 5) Linear regression with real data
 
-**[Module 2: Take off with stats](https://github.com/engineersCode/EngComp/tree/master/modules/2_takeoff)**
+* **Get a PDF version to print**: _Engineering Computations Module 1: Get data off the ground._ figshare. https://doi.org/10.6084/m9.figshare.5673454.v1
+
+
+**[Module 2: Take off with stats](https://github.com/engineersCode/EngComp2_takeoff)**
 — Hands-on data analysis using a computational approach and real-life applications.
 
 1) Cheers! Stats with beers
@@ -34,14 +42,18 @@ In particular, we want to design a course that adheres to Papert's _Power Princi
 3) Lead in lipstick (a full example)
 4) Life expectancy and wealth
 
-**[Module 3: Fly at change in systems](https://github.com/engineersCode/EngComp/tree/master/modules/3_flyatchange)**
-— Tackling the dynamics of change with computational thinking. (Under development.)
+* **Get a PDF version to print**: _Engineering Computations Module 2: Take off with stats._ figshare. https://doi.org/10.6084/m9.figshare.5673499.v1
+
+**[Module 3: Fly at change in systems](https://github.com/engineersCode/EngComp3_flyatchange)**
+— Tackling the dynamics of change with computational thinking. 
 
 1) Catch things in motion
 2) Step to the future
+3) Get with the oscillations
+4) Bird's-eye view of mechanical vibrations
 
-**Module 4: Land on vector spaces**
-— Using vectors and matrices in engineering with the power of linear algebra. (Under development.)
+* **Get a PDF version to print**: _Engineering Computations Module 3: Fly at change in systems._ figshare.
+ https://doi.org/10.6084/m9.figshare.5673526
 
 ## Copyright and License
 
